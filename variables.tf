@@ -13,6 +13,10 @@ variable "department" {
   description = "Department for billing."
 }
 
+variable "billable" {
+  description = "Is it billable"
+}
+
 variable "region" {
   description = "The region where the resources are created."
   default     = "us-east-1"
